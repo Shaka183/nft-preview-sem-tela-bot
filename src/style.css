@@ -93,6 +93,27 @@ body {
 }
 
 
+@media (max-width:450px) {
+    .container .painel {
+        grid-template-columns: 1fr;
+        width: 90%;
+        height: auto;
+        margin: 20px;
+    }
+
+    .container .painel .info .parfum {
+        font-size: 13px;
+    }
+
+    .container .painel .info h1 {
+        font-size: 30px;
+    }
+
+    .container .painel .info .texto {
+        font-size: 14px;
+    }
+}
+
 
 
 
